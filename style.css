@@ -9,10 +9,12 @@ h1{
 
 h2{
     font-size: 40px;
+    text-align: center;
 }
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
+    padding: 10px;
 }
 .half-width{
     width:50% ;
@@ -35,5 +37,29 @@ h2{
 .photo-album {
     display: flex;
     flex-wrap: wrap;
+    padding: 15px;
+    
 
+}
+.photo-frame {
+    width: 300px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px;
+    padding: 10px;
+    background-color: whitesmoke;
+    /* overflow: hidden; */
+
+}
+.full-album{
+    padding-left: 100px;
+}
+
+
+
+.see-more{
+    text-align: right;
+    text-decoration: none;
 }
