@@ -14,7 +14,8 @@ h2{
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 100px;
 }
 .half-width{
     width:50% ;
@@ -26,7 +27,7 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-color: mediumvioletred;
     padding: 10px 40px;
     color: white;
     font: weight 700px; ;
@@ -37,13 +38,13 @@ h2{
 .photo-album {
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 10px;
     
 
 }
 .photo-frame {
     width: 300px;
-    height: 450px;
+    height: 480px;
     border: 2px solid white;
     border-radius: 20px;
     position: relative;
@@ -54,7 +55,7 @@ h2{
 
 }
 .full-album{
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 
@@ -62,6 +63,8 @@ h2{
 .see-more{
     text-align: right;
     text-decoration: none;
+    color: mediumvioletred;
+    padding-right: 100px;
 }
 
 footer {
@@ -72,4 +75,23 @@ footer {
 }
 .font{
     font-family: 'Courgette', cursive;
+}
+
+@media (max-width: 700px) {
+    .responsive {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    .responsive{
+        margin-bottom: 20px;
+    }
+
+}
+.star{
+    color: orange;
+}
+.rating{
+    color: black;
 }
