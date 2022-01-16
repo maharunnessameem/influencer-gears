@@ -30,3 +30,10 @@ h2{
     font: weight 700px; ;
     border-radius: 5px;
 }
+
+
+.photo-album {
+    display: flex;
+    flex-wrap: wrap;
+
+}
