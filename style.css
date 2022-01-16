@@ -63,3 +63,13 @@ h2{
     text-align: right;
     text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+.font{
+    font-family: 'Courgette', cursive;
+}
